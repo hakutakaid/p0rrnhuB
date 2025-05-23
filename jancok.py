@@ -41,7 +41,7 @@ if response.status_code == 200:
                     file.write(f"{video_url}\n")
                     print(f"Saved: {video_url}")
                 else:
-                    file.write(f"Video URL 1080P tidak ditemukan untuk {video_link}\n")
+                    #file.write(f"Video URL 1080P tidak ditemukan untuk {video_link}\n")
                     print(f"Not found for: {video_link}")
             else:
                 print(f"Failed to access: {video_link}")
